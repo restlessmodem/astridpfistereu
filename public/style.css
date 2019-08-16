@@ -1,0 +1,28 @@
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Karma", sans-serif
+}
+.w3-bar-block .w3-bar-item {padding:30px}
+h1 {
+    font-size: 30px;
+}
+.desc {
+    min-height: 125px;
+    max-height: 125px;
+    font-size: 16px;
+}
+.bookname {
+    min-height: 60px;
+    max-height: 60px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.w3-top * {
+    font-size: 90%;
+    text-decoration: none;
+}
+.gallerynav {
+    position:absolute;
+    top:45%;
+    color:white;
+    font-size:40px;
+}
