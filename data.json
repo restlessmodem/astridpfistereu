@@ -1,0 +1,558 @@
+{
+    "category": [
+      {
+        "name": "Romane",
+        "books": [
+          {
+            "id": "18",
+            "name": "Veräterisches Schweigen",
+            "description": "ISBN: 9783958192065<br/>Midnight Verlag",
+            "url": "https://www.ullstein-buchverlage.de/nc/buch/details/verraeterisches-schweigen-9783958192065.html"
+          },
+          {
+            "id": "17",
+            "name": "Liebe ist unvergänglich",
+            "description": "ISBN: 9783845926414<br/>AAVAA Verlag",
+            "url": "https://www.amazon.de/Liebe-ist-unverg%C3%A4nglich-Astrid-Pfister/dp/3845926384"
+          },
+          {
+            "id": "16",
+            "name": "Die Zwölfe",
+            "description": "ASIN: B077B8TS16<br/>AAVAA Verlag",
+            "url": "https://www.amazon.de/gp/product/B077B8TS16/"
+          },
+          {
+            "id": "15",
+            "name": "Sherlock Holmes und die gefallenen Mädchen",
+            "description": "ASIN: B0711M4ZKY<br/>Arunya Verlag<br/>2.99 Euro",
+            "url": "https://www.amazon.de/Sherlock-Holmes-gefallenen-M%C3%A4dchen-Street-ebook/dp/B0711M4ZKY"
+          },
+          {
+            "id": "14",
+            "name": "Schicksal",
+            "description": "ISBN: 978-3944729688<br/>Amrun Verlag<br/>12,90 Euro",
+            "url": "http://www.amazon.de/Schicksal-Astrid-Pfister/dp/3944729684"
+          },
+          {
+            "id": "13",
+            "name": "Neues Heim - das muss (nicht) sein",
+            "description": "ISBN: 978-3845913117<br/>11,95 Euro<br/>239 Seiten",
+            "url": "http://www.amazon.de/Neues-Heim-muss-nicht-sein/dp/3845913118"
+          },
+          {
+            "id": "12",
+            "name": "Gefährliche Verführung",
+            "description": "90 Seiten<br/>Bastei Lübbe<br/>1,90 Euro",
+            "url": "90 Seiten<br/>Bastei Lübbe<br/>1,90 Euro"
+          },
+          {
+            "id": "11",
+            "name": "Die zwei Seiten der Liebe",
+            "description": "Romantik/Schicksal<br/>ISBN: 978-3845911397<br/>11,95 Euro<br/>215 Seiten",
+            "url": "http://www.amazon.de/Zwei-Seiten-Liebe-Astrid-Pfister/dp/3845911395"
+          },
+          {
+            "id": "10",
+            "name": "Larry Brent - Das Pestmädchen",
+            "description": "Band 04 Mystery Thriller<br/>ISBN : 978-3-89840-399-3<br/>Seiten: 160<br/>12,95 Euro<br/>BLITZ Verlag",
+            "url": null
+          },
+          {
+            "id": "9",
+            "name": "The seven Chambers of our Expressions",
+            "description": "Eric Cathey & Astrid Pfister<br/>Gedichtband<br/>März 2013<br/>EAN: 4260281170762<br/>Hary Production",
+            "url": null
+          },
+          {
+            "id": "7",
+            "name": "Das Haus an der Abbington Road",
+            "description": "Jugend Kurzgeschichtenband<br/>April 2009<br/>ISBN: 978-3-940951-21-2<br/>Verlag Pia Bächthold",
+            "url": null
+          },
+          {
+            "id": "6",
+            "name": "Sleepy Madow",
+            "description": "Horror Roman<br/>März 2009<br/>ISBN: 978-3-940951-14-4<br/>Verlag Pia Bächthold",
+            "url": null
+          },
+          {
+            "id": "5",
+            "name": "Das Heavens End Projekt",
+            "description": "Horror Roman<br/>März 2009<br/>ISBN 978-3-940209-21-4<br/>Noel Verlag",
+            "url": null
+          },
+          {
+            "id": "4",
+            "name": "Bis zum letzten Biss",
+            "description": "Horrorroman<br/>Dezember 2008<br/>Hary Production",
+            "url": null
+          },
+          {
+            "id": "3",
+            "name": "Der Tag an dem Weihnachten verschwand",
+            "description": "Kinder und Jugend Roman<br/>ISBN: 978-3-940951-09-0<br/>Verlag Pia Bächtold",
+            "url": null
+          },
+          {
+            "id": "2",
+            "name": "Das Land VS",
+            "description": "Kinder Kurzgeschichtenband<br/>November 2008<br/>ISBN: 978-3-940951-07-6<br/>Verlag Pia Bächtold",
+            "url": null
+          },
+          {
+            "id": "1",
+            "name": "Nächte der Angst",
+            "description": "Kurzgeschichten Band<br/>Dezember 2007<br/>Hary Production",
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "Anthologien",
+        "books": [
+          {
+            "id": "28",
+            "name": "Bunte Welt",
+            "description": "Seifenblasen Reihe Band 1 enthält meine Geschichte Der Eisdrache. Arunya Verlag",
+            "url": null
+          },
+          {
+            "id": "27",
+            "name": "Buntes Herbstgeflüster",
+            "description": "enthält meine Geschichte Nichts ist wie es scheint. UBV Verlag",
+            "url": null
+          },
+          {
+            "id": "26",
+            "name": "Wunder der Weihnacht",
+            "description": "enthält meine Geschichte Der Gewinn. Verlag Pia Bächtold",
+            "url": null
+          },
+          {
+            "id": "25",
+            "name": "Die Macht des Mondes",
+            "description": "enthält meine Geschichte Der Jahrestag der Titanic. Hary Production",
+            "url": null
+          },
+          {
+            "id": "24",
+            "name": "Gequälte Seelen",
+            "description": "Gequälte Seelen enthält meine Geschichte Gequälte Seele. Hary Production",
+            "url": null
+          },
+          {
+            "id": "23",
+            "name": "Am Rande des Horizonts",
+            "description": "enthält meine Geschichte Die zwei Gesichter eines Kriegers. Noel Verlag",
+            "url": null
+          },
+          {
+            "id": "22",
+            "name": "Eldorado",
+            "description": "enthält meine Geschichte Eine auswegslose Flucht. Phantastische Zeiten Verlag",
+            "url": null
+          },
+          {
+            "id": "20",
+            "name": "Das große Elfenbuch und die verschollenen Märchen Band III",
+            "description": "enthält zahlreiche meiner Geschichten. Edition Pia Bächthold",
+            "url": null
+          },
+          {
+            "id": "19",
+            "name": "Geschichten von der Märchenwiese",
+            "description": "enthält zahlreiche meiner Geschichten.",
+            "url": null
+          },
+          {
+            "id": "18",
+            "name": "Endzeit",
+            "description": "enthält meine Geschichte  Die letzte Information. Edition Leserunde.",
+            "url": null
+          },
+          {
+            "id": "17",
+            "name": "Welt der Geschichten 5",
+            "description": "Mitherausgeberin und enthält meine Geschichte Der Unterblichkeitstrank. Hary Production",
+            "url": null
+          },
+          {
+            "id": "16",
+            "name": "Seemannsgarn",
+            "description": "Seemannsgarn enthält meine Geschichte Die Blackbird Höhle. Edition Leserunde",
+            "url": null
+          },
+          {
+            "id": "14",
+            "name": "Schäfchenzählen im Mondenschein",
+            "description": "enthält meine Geschichte Tschuff Tschuff und seine Freunde. Edition Wendepunkt",
+            "url": null
+          },
+          {
+            "id": "13",
+            "name": "Mord und Totschlag",
+            "description": "enthält meine Geschichte Die perfekte Tatwaffe.",
+            "url": null
+          },
+          {
+            "id": "12",
+            "name": "Augenblicke der Ewigkeit III",
+            "description": "enthält meine Geschichte Eine ganz und gar normale Nachbarschaft.",
+            "url": null
+          },
+          {
+            "id": "11",
+            "name": "Welt der Geschichten 4",
+            "description": "Mitherausgeberin und enthält meine Geschichte Amnesie.",
+            "url": null
+          },
+          {
+            "id": "10",
+            "name": "Blutmond",
+            "description": "enthält meine Geschichte Das Abendessen der besonderen Art.",
+            "url": null
+          },
+          {
+            "id": "9",
+            "name": "Das große mystische Märchenbuch",
+            "description": "enthält zahlreiche meiner Geschichten. Intrag Publishing",
+            "url": null
+          },
+          {
+            "id": "8",
+            "name": "Liberate Me",
+            "description": "enthält meine Story Das Buch.",
+            "url": null
+          },
+          {
+            "id": "7",
+            "name": "Welt der Geschichten 2",
+            "description": "Mitherausgeberin und enthält meine Geschichte Zimmer 247",
+            "url": null
+          },
+          {
+            "id": "5",
+            "name": "Verfolgt",
+            "description": "enthält meine Geschichte Das Spiegel Kabinett. Lerato Verlag",
+            "url": null
+          },
+          {
+            "id": "4",
+            "name": "Nocturno 6",
+            "description": "enthält meine Geschichte Der Ring zum Glück. Nocturno Magazin",
+            "url": null
+          },
+          {
+            "id": "3",
+            "name": "Welt der Geschichten 1",
+            "description": "Mitherausgeberin und enthält meine Geschichte Die Masken der Nacht. Welt der Geschichten",
+            "url": null
+          },
+          {
+            "id": "2",
+            "name": "Nachtfahrt",
+            "description": "enthält meine Geschichte Eine Fahrt ins Ungewisse. Lerato Verlag",
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "Heftromane",
+        "books": [
+          {
+            "id": "10",
+            "name": "Xun 19",
+            "description": "enthält meine Geschichte Der Alcatraz Fan",
+            "url": null
+          },
+          {
+            "id": "9",
+            "name": "Pulp Magazine Winter",
+            "description": "enthält meine Geschichte Das Buch",
+            "url": null
+          },
+          {
+            "id": "8",
+            "name": "XUN 17",
+            "description": "enthält meine Geschichte Die Wetterprognose",
+            "url": null
+          },
+          {
+            "id": "6",
+            "name": "XUN 16",
+            "description": "enthält meine Geschichte Die geheimnissvolle Zigeunerin",
+            "url": null
+          },
+          {
+            "id": "4",
+            "name": "Ad Astra",
+            "description": "enthält meine Geschichten Das RDP Projekt, Ein genialer Plan, Die letzte Information",
+            "url": null
+          },
+          {
+            "id": "3",
+            "name": "XUN 14",
+            "description": "enthält meine Geschichte Späte Rache",
+            "url": null
+          },
+          {
+            "id": "2",
+            "name": "XUN 11",
+            "description": "enthält meine Geschichte Eiszeit",
+            "url": null
+          },
+          {
+            "id": "1",
+            "name": "Bastei Schattenreich Pulp Magazin Band 19",
+            "description": "enthält meine Geschichte Der Ring zum Glück",
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "Sonstige",
+        "books": [
+          {
+            "id": "6",
+            "name": "Mini Buch Box 4",
+            "description": "enthält meine Geschichte Die kleinen und großen Probleme eines Monsters",
+            "url": null
+          },
+          {
+            "id": "5",
+            "name": "Ara - Das literarische Hörmagazin",
+            "description": "enthält meine Geschichte 23.45 Uhr Bahn",
+            "url": null
+          },
+          {
+            "id": "4",
+            "name": "Für Dich",
+            "description": "enthält mein Gedicht Vor langer Zeit",
+            "url": null
+          },
+          {
+            "id": "3",
+            "name": "Spiele Modifikation Blood&Mud II - Bloodscripts für Oblivion - The Elder Scrolls",
+            "description": "enthält meine Geschichten Eine Nacht in Donlon, Sie soll brennen",
+            "url": null
+          },
+          {
+            "id": "1",
+            "name": "Auf voranker.de",
+            "description": "findet ihr meine Geschichte Die Blackbird Höhle",
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "Illustrationen",
+        "books": [
+          {
+            "id": "36",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "35",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "34",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "33",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "32",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "31",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "30",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "29",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "28",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "27",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "26",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "25",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "24",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "23",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "22",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "21",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "20",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "19",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "18",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "17",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "16",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "10",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "1",
+            "name": "Gaby Hylla",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "14",
+            "name": "Pat Hachfeld",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "12",
+            "name": "Pat Hachfeld",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "11",
+            "name": "Pat Hachfeld",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "9",
+            "name": "Chris Schlicht",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "8",
+            "name": "Chris Schlicht",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "7",
+            "name": "Chris Schlicht",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "5",
+            "name": "Chris Schlicht",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "4",
+            "name": "Chris Schlicht",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "3",
+            "name": "Chris Schlicht",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "2",
+            "name": "Chris Schlicht",
+            "description": null,
+            "url": null
+          },
+          {
+            "id": "15",
+            "name": "Bernd Rothe",
+            "description": null,
+            "url": null
+          }
+        ]
+      }
+    ]
+  }
+  

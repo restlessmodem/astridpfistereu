@@ -1,0 +1,15 @@
+{
+  "name": "astridpfistereu-nodejs",
+  "version": "1.0.0",
+  "description": "Website for the writer Astrid Pfister from Herne",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Christopher Pfister",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}

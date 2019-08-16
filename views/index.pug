@@ -1,0 +1,111 @@
+doctype html
+html
+    head
+        title Astrid Pfister - Website der Autorin aus Herne
+        meta(name='author' content='Christopher Pfister, 2019')
+        meta(name='description' content='Herzlich Willkommen auf der Website der Autorin Astrid Pfister. Hier erfahren Sie alles über die Autorin, ihre Werke und ihre neuesten Projekte.')
+        meta(charset='UTF-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1')
+        link(rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css')
+        link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Karma')
+        link(rel='stylesheet' href='style.css')
+        link(rel='icon' type='image/png' href='favicon.png')
+        script(type='text/javascript' src='script.js')
+        script(async='' src='https://www.googletagmanager.com/gtag/js?id=UA-133295032-1') // Global site tag (gtag.js) - Google Analytics
+        script.
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-133295032-1', {'anonymize_ip': true});
+    body
+        nav#mySidebar.w3-sidebar.w3-bar-block.w3-card.w3-top.w3-xlarge.w3-animate-left(style='display:none;z-index:2;width:40%;min-width:300px')
+            a.w3-bar-item.w3-button(href='javascript:void(0)' onclick='w3_close()') Men&uuml; schlie&szlig;en
+            a.w3-bar-item.w3-button(href='#about' onclick='w3_close()') &Uuml;ber
+            a.w3-bar-item.w3-button(href='#Romane' onclick='w3_close()') Romane
+            a.w3-bar-item.w3-button(href='#Anthologien' onclick='w3_close()') Anthologien
+            a.w3-bar-item.w3-button(href='#Heftromane' onclick='w3_close()') Heftromane
+            a.w3-bar-item.w3-button(href='#Sonstige' onclick='w3_close()') Sonstige Werke
+            a.w3-bar-item.w3-button(href='#Illustrationen' onclick='w3_close()') Illustrationen
+            a.w3-bar-item.w3-button(href='#Zeitung' onclick='w3_close()') Zeitung
+            a.w3-bar-item.w3-button(href='#footer' onclick='w3_close()') Impressum &amp; Datenschutzerkl&auml;rung
+            a.w3-bar-item.w3-button(href='#Top' onclick='w3_close()') &uarr;Top
+            a.w3-bar-item.w3-button(href='javascript:history.back()' onclick='w3_close()') &larr;Zur&uuml;ck
+
+        hr#top
+        .w3-top
+            .w3-white.w3-xlarge(style='max-width:1200px;margin:auto')
+                .w3-button.w3-padding-16.w3-left(onclick='w3_open()') &#x2630; Menü
+                .w3-right.w3-padding-16
+                    a(href='mailto:astridpfister@yahoo.de') Kontakt &nbsp; 
+                .w3-center.w3-padding-16 
+                    strong astridpfister.eu &nbsp; 
+        
+        .w3-main.w3-content.w3-padding(style='max-width:1200px;margin-top:50px')
+            hr#about
+            .w3-container.w3-padding-32.w3-center
+                h1 &Uuml;ber die Autorin Astrid Pfister
+                br
+                img.w3-image(src='astridpfister.png' alt='Astrid Pfister' style='display:block;margin:auto;' height='260px' width='260px')
+                .w3-container.w3-padding-32.w3-center.w3-padding-32
+                    p Herzlich Willkommen auf der 
+                        strong Website der Autorin Astrid Pfister 
+                        | . Hier erfahren Sie alles &uuml;ber die Autorin, ihre Werke und ihre neuesten Projekte.
+                    p Astrid Pfister wurde am 23. Juni 1980 in Westerholt geboren und lebt zurzeit in Herne. Bislang wurden &uuml;ber siebzig ihrer Kurzgeschichten in Anthologien und Heftromanen ver&ouml;ffentlicht, u.a bei Bastei u.s.w. Des Weiteren erschienen zw&ouml;lf Romane, f&uuml;nf Kurzgeschichtenb&auml;nde und ein Gedichtband bei diversen Verlagen, wie Bastei L&uuml;bbe und dem BLITZ Verlag. Nebenbei hat sie zwischen 2006-2013 gemeinsam mit dem Autor Bernd Rothe die Buch-Reihe Welt der Geschichten und die Heftromanreihe Pulp Magazine bei dem Verlag Hary Production herausgegeben.
+            
+            div.container
+                each category in data
+                    div.w3-row-padding.w3-padding-16.w3-center(id=`${category.name}`)
+                        h2 #{category.name}
+                        each book in category.books
+                            div.w3-quarter(style='padding-bottom:30px;')
+                                picture(style='width:100%')
+                                    source(srcset=`imgs/${category.name}/${book.id}.webp` type=`image/webp`)
+                                    img(src=`imgs/${category.name}/${book.id}.jpg`)
+                                p.bookname #{book.name}
+                                p.desc !{book.description}
+                                if book.url
+                                    a(target='_blank' href=`${book.url}`) Mehr Infos...
+
+            hr#Zeitung
+            h2.w3-center Zeitung
+            .w3-content(style='max-width:800px;position:relative')
+                img.mySlides.w3-animate-opacity(src='imgs/Zeitung/4.jpg' style='width:100%')
+                img.mySlides.w3-animate-opacity(src='imgs/Zeitung/3.jpg' style='width:100%')
+                img.mySlides.w3-animate-opacity(src='imgs/Zeitung/2.jpg' style='width:100%')
+                img.mySlides.w3-animate-opacity(src='imgs/Zeitung/1.jpg' style='width:100%')
+                a.w3-button.w3-hover-dark-grey(class='gallerynav' style='left:0' onclick='plusDivs(-1)') «
+                a.w3-button.w3-hover-dark-grey(class='gallerynav' style='right:0' onclick='plusDivs(+1)') »
+                script.
+                    showDivs(1);
+            hr
+            hr#footer
+            footer.w3-row-padding.w3-padding-32
+                .w3-third
+                    h3 Impressum &amp; Weitere Links
+                    p Astrid Pfister
+                        br
+                        | 44627 Herne
+                        br
+                        | Deutschland
+                        br
+                        br
+                        a(href='mailto:astridpfister@yahoo.de') astridpfister@yahoo.de
+                        br
+                        a(href='https://www.facebook.com/astrid.pfister.7/') Facebook
+                        br
+                        a(href='https://twitter.com/AstridPfister/') Twitter
+                        br
+                        a(href='https://www.lovelybooks.de/mitglied/Mystic2001de2001/') Lovelybooks
+                        br
+                        br
+                        a(target='_blank' href='http://www.derwesten.de/staedte/nachrichten-aus-herne-und-wanne-eickel/herner-autorin-veroeffentlicht-neuen-roman-id11674865.html') Interview WAZ
+                        br
+                .w3-twothird
+                    h3 Datenschutz
+                    p
+                        strong Allgemeine Datenschutzerkl&auml;rung
+                    p(style='font-size:11px;') Durch die Nutzung unserer Website erkl&auml;ren Sie sich mit der Erhebung, Verarbeitung und Nutzung von Daten gem&auml;&szlig; der nachfolgenden Beschreibung einverstanden. Unsere Website kann grunds&auml;tzlich ohne Registrierung besucht werden. Dabei werden Daten wie beispielsweise aufgerufene Seiten bzw. Namen der abgerufenen Datei, Datum und Uhrzeit zu statistischen Zwecken auf dem Server gespeichert, ohne dass diese Daten unmittelbar auf Ihre Person bezogen werden. Personenbezogene Daten, insbesondere Name, Adresse oder E-Mail-Adresse werden soweit m&ouml;glich auf freiwilliger Basis erhoben. Ohne Ihre Einwilligung erfolgt keine Weitergabe der Daten an Dritte.
+                    p
+                        strong Datenschutzerkl&auml;rung f&uuml;r Google Analytics
+                    p(style='font-size:11px;') Unsere Website verwendet Google Analytics, einen Webanalysedienst von Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA. Zur Deaktivierung von Google Analytiscs stellt Google unter http://tools.google.com/dlpage/gaoptout?hl=de ein Browser-Plug-In zur Verf&uuml;gung. Google Analytics verwendet Cookies. Das sind kleine Textdateien, die es m&ouml;glich machen, auf dem Endger&auml;t des Nutzers spezifische, auf den Nutzer bezogene Informationen zu speichern. Diese erm&ouml;glichen eine Analyse der Nutzung unseres Websiteangebotes durch Google. Die durch den Cookie erfassten Informationen &uuml;ber die Nutzung unserer Seiten (einschlie&szlig;lich Ihrer IP-Adresse) werden in der Regel an einen Server von Google in den USA &uuml;bertragen und dort gespeichert. Wir weisen darauf hin, dass auf dieser Website Google Analytics um den Code &bdquo;gat._anonymizeIp();&ldquo; erweitert wurde, um eine anonymisierte Erfassung von IP-Adressen (sog. IP-Masking) zu gew&auml;hrleisten. Ist die Anonymisierung aktiv, k&uuml;rzt Google IP-Adressen innerhalb von Mitgliedstaaten der Europ&auml;ischen Union oder in anderen Vertragsstaaten des Abkommens &uuml;ber den Europ&auml;ischen Wirtschaftsraum, weswegen keine R&uuml;ckschl&uuml;sse auf Ihre Identit&auml;t m&ouml;glich sind. Nur in Ausnahmef&auml;llen wird die volle IP-Adresse an einen Server von Google in den USA &uuml;bertragen und dort gek&uuml;rzt. Google beachtet die Datenschutzbestimmungen des &bdquo;Privacy Shield&ldquo;-Abkommens und ist beim &bdquo;Privacy Shield&ldquo;-Programm des US-Handelsministeriums registriert und nutzt die gesammelten Informationen, um die Nutzung unserer Websites auszuwerten, Berichte f&uuml;r uns diesbez&uuml;glich zu verfassen und andere diesbez&uuml;gliche Dienstleistungen an uns zu erbringen. Mehr erfahren Sie unter
+                        a(href='http://www.google.com/intl/de/analytics/privacyoverview.html')  http://www.google.com/intl/de/analytics/privacyoverview.html
