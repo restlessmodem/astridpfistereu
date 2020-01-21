@@ -1,8 +1,8 @@
 doctype html
-html
+html(lang='de')
     head
         title Astrid Pfister - Website der Autorin aus Herne
-        meta(name='author' content='Christopher Pfister, 2019')
+        meta(name='author' content='Christopher Pfister, 2020')
         meta(name='description' content='Herzlich Willkommen auf der Website der Autorin Astrid Pfister. Hier erfahren Sie alles über die Autorin, ihre Werke und ihre neuesten Projekte.')
         meta(charset='UTF-8')
         meta(name='viewport' content='width=device-width, initial-scale=1')
@@ -59,8 +59,8 @@ html
                         each book in category.books
                             div.w3-quarter(style='padding-bottom:30px;')
                                 picture(style='width:100%')
-                                    source(srcset=`imgs/${category.name}/${book.id}.webp` type=`image/webp`)
-                                    img(src=`imgs/${category.name}/${book.id}.jpg`)
+                                    source(srcset=`imgs/${category.name}/${book.id}.webp` type=`image/webp` alt=`${book.name}`)
+                                    img(src=`imgs/${category.name}/${book.id}.jpg` alt=`${book.name}`)
                                 p.bookname #{book.name}
                                 p.desc !{book.description}
                                 if book.url
@@ -69,10 +69,10 @@ html
             hr#Zeitung
             h2.w3-center Zeitung
             .w3-content(style='max-width:800px;position:relative')
-                img.mySlides.w3-animate-opacity(src='imgs/Zeitung/4.jpg' style='width:100%')
-                img.mySlides.w3-animate-opacity(src='imgs/Zeitung/3.jpg' style='width:100%')
-                img.mySlides.w3-animate-opacity(src='imgs/Zeitung/2.jpg' style='width:100%')
-                img.mySlides.w3-animate-opacity(src='imgs/Zeitung/1.jpg' style='width:100%')
+                img.mySlides.w3-animate-opacity(src='imgs/Zeitung/4.jpg' style='width:100%' alt='Zeitungsartikel')
+                img.mySlides.w3-animate-opacity(src='imgs/Zeitung/3.jpg' style='width:100%' alt='Zeitungsartikel')
+                img.mySlides.w3-animate-opacity(src='imgs/Zeitung/2.jpg' style='width:100%' alt='Zeitungsartikel')
+                img.mySlides.w3-animate-opacity(src='imgs/Zeitung/1.jpg' style='width:100%' alt='Zeitungsartikel')
                 a.w3-button.w3-hover-dark-grey(class='gallerynav' style='left:0' onclick='plusDivs(-1)') «
                 a.w3-button.w3-hover-dark-grey(class='gallerynav' style='right:0' onclick='plusDivs(+1)') »
                 script.
@@ -82,21 +82,33 @@ html
             footer.w3-row-padding.w3-padding-32
                 .w3-third
                     h3 Impressum &amp; Weitere Links
-                    p Astrid Pfister
+                    p 
+                        strong Inhaltlich Veranwortliche:
+                        br
+                        | Astrid Pfister
+                        br
+                        a(target='_blank' href='mailto:astridpfister@yahoo.de') astridpfister@yahoo.de
                         br
                         | 44627 Herne
                         br
                         | Deutschland
                         br
+                        |  
                         br
-                        a(href='mailto:astridpfister@yahoo.de') astridpfister@yahoo.de
+                        |
+                        strong Ersteller / Administrator der Website:
                         br
-                        a(href='https://www.facebook.com/astrid.pfister.7/') Facebook
+                        | Christopher Pfister
                         br
-                        a(href='https://twitter.com/AstridPfister/') Twitter
+                        a(target='_blank' href='mailto:christopherpfisterde@protonmail.com') christopherpfisterde@protonmail.com
                         br
-                        a(href='https://www.lovelybooks.de/mitglied/Mystic2001de2001/') Lovelybooks
+                        
                         br
+                        a(target='_blank' href='https://www.facebook.com/astrid.pfister.7/') Facebook
+                        br
+                        a(target='_blank' href='https://twitter.com/AstridPfister/') Twitter
+                        br
+                        a(target='_blank' href='https://www.lovelybooks.de/mitglied/Mystic2001de2001/') Lovelybooks
                         br
                         a(target='_blank' href='http://www.derwesten.de/staedte/nachrichten-aus-herne-und-wanne-eickel/herner-autorin-veroeffentlicht-neuen-roman-id11674865.html') Interview WAZ
                         br
@@ -108,4 +120,4 @@ html
                     p
                         strong Datenschutzerkl&auml;rung f&uuml;r Google Analytics
                     p(style='font-size:11px;') Unsere Website verwendet Google Analytics, einen Webanalysedienst von Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA. Zur Deaktivierung von Google Analytiscs stellt Google unter http://tools.google.com/dlpage/gaoptout?hl=de ein Browser-Plug-In zur Verf&uuml;gung. Google Analytics verwendet Cookies. Das sind kleine Textdateien, die es m&ouml;glich machen, auf dem Endger&auml;t des Nutzers spezifische, auf den Nutzer bezogene Informationen zu speichern. Diese erm&ouml;glichen eine Analyse der Nutzung unseres Websiteangebotes durch Google. Die durch den Cookie erfassten Informationen &uuml;ber die Nutzung unserer Seiten (einschlie&szlig;lich Ihrer IP-Adresse) werden in der Regel an einen Server von Google in den USA &uuml;bertragen und dort gespeichert. Wir weisen darauf hin, dass auf dieser Website Google Analytics um den Code &bdquo;gat._anonymizeIp();&ldquo; erweitert wurde, um eine anonymisierte Erfassung von IP-Adressen (sog. IP-Masking) zu gew&auml;hrleisten. Ist die Anonymisierung aktiv, k&uuml;rzt Google IP-Adressen innerhalb von Mitgliedstaaten der Europ&auml;ischen Union oder in anderen Vertragsstaaten des Abkommens &uuml;ber den Europ&auml;ischen Wirtschaftsraum, weswegen keine R&uuml;ckschl&uuml;sse auf Ihre Identit&auml;t m&ouml;glich sind. Nur in Ausnahmef&auml;llen wird die volle IP-Adresse an einen Server von Google in den USA &uuml;bertragen und dort gek&uuml;rzt. Google beachtet die Datenschutzbestimmungen des &bdquo;Privacy Shield&ldquo;-Abkommens und ist beim &bdquo;Privacy Shield&ldquo;-Programm des US-Handelsministeriums registriert und nutzt die gesammelten Informationen, um die Nutzung unserer Websites auszuwerten, Berichte f&uuml;r uns diesbez&uuml;glich zu verfassen und andere diesbez&uuml;gliche Dienstleistungen an uns zu erbringen. Mehr erfahren Sie unter
-                        a(href='http://www.google.com/intl/de/analytics/privacyoverview.html')  http://www.google.com/intl/de/analytics/privacyoverview.html
+                        a(href='http://www.google.com/intl/de/analytics/privacyoverview.html' rel='nofollow noopener noreferrer')  http://www.google.com/intl/de/analytics/privacyoverview.html
