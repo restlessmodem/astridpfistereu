@@ -26,3 +26,9 @@ h1 {
     color:white;
     font-size:40px;
 }
+img {
+    max-height: 375px;
+}
+.w3-quarter {
+    height: 650px;
+}

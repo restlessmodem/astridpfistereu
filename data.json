@@ -4,6 +4,18 @@
         "name": "Romane",
         "books": [
           {
+            "id": "20",
+            "name": "Trauma: Niemand wird dich retten",
+            "description": "ASIN: B08Q8R1QD6 <br/>dp Verlag",
+            "url": "https://www.amazon.de/-/en/gp/product/B08Q8R1QD6/"
+          },
+          {
+            "id": "19",
+            "name": "Das Pestmädchen",
+            "description": "ASIN: B07NVRSQYT<br/>Bastei Entertainment",
+            "url": "https://www.amazon.de/dp/B07NVRSQYT/"
+          },
+          {
             "id": "18",
             "name": "Veräterisches Schweigen",
             "description": "ISBN: 9783958192065<br/>Midnight Verlag",
