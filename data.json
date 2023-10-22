@@ -345,41 +345,6 @@
             "url": null
           }
         ]
-      },
-      {
-        "name": "Sonstige",
-        "books": [
-          {
-            "id": "6",
-            "name": "Mini Buch Box 4",
-            "description": "enthält meine Geschichte Die kleinen und großen Probleme eines Monsters",
-            "url": null
-          },
-          {
-            "id": "5",
-            "name": "Ara - Das literarische Hörmagazin",
-            "description": "enthält meine Geschichte 23.45 Uhr Bahn",
-            "url": null
-          },
-          {
-            "id": "4",
-            "name": "Für Dich",
-            "description": "enthält mein Gedicht Vor langer Zeit",
-            "url": null
-          },
-          {
-            "id": "3",
-            "name": "Spiele Modifikation Blood&Mud II - Bloodscripts für Oblivion - The Elder Scrolls",
-            "description": "enthält meine Geschichten Eine Nacht in Donlon, Sie soll brennen",
-            "url": null
-          },
-          {
-            "id": "1",
-            "name": "Auf voranker.de",
-            "description": "findet ihr meine Geschichte Die Blackbird Höhle",
-            "url": null
-          }
-        ]
       }
     ]
   }

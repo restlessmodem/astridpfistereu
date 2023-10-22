@@ -2,8 +2,8 @@ doctype html
 html(lang='de')
     head
         title Astrid Pfister - Website der Autorin aus Herne
-        meta(name='author' content='Christopher Pfister, 2021')
-        meta(name='description' content='Herzlich Willkommen auf der Website der Autorin Astrid Pfister. Hier erfahren Sie alles über die Autorin, ihre Werke und ihre neuesten Projekte.')
+        meta(name='author' content='Christopher Pfister, 2023')
+        meta(name='description' content='Website der Autorin Astrid Pfister. Hier erfahren Sie alles über die Autorin, ihre Werke und ihre neuesten Projekte.')
         meta(charset='UTF-8')
         meta(name='viewport' content='width=device-width, initial-scale=1')
         link(rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css')
@@ -24,8 +24,6 @@ html(lang='de')
             a.w3-bar-item.w3-button(href='#Romane' onclick='w3_close()') Romane
             a.w3-bar-item.w3-button(href='#Anthologien' onclick='w3_close()') Anthologien
             a.w3-bar-item.w3-button(href='#Heftromane' onclick='w3_close()') Heftromane
-            a.w3-bar-item.w3-button(href='#Sonstige' onclick='w3_close()') Sonstige Werke
-            a.w3-bar-item.w3-button(href='#Illustrationen' onclick='w3_close()') Illustrationen
             a.w3-bar-item.w3-button(href='#Zeitung' onclick='w3_close()') Zeitung
             a.w3-bar-item.w3-button(href='#footer' onclick='w3_close()') Impressum &amp; Datenschutzerkl&auml;rung
 
@@ -48,7 +46,7 @@ html(lang='de')
                     p Herzlich Willkommen auf der 
                         strong Website der Autorin Astrid Pfister 
                         | . Hier erfahren Sie alles &uuml;ber die Autorin, ihre Werke und ihre neuesten Projekte.
-                    p Astrid Pfister wurde am 23. Juni 1980 in Westerholt geboren und lebt zurzeit in Herne. Bislang wurden &uuml;ber siebzig ihrer Kurzgeschichten in Anthologien und Heftromanen ver&ouml;ffentlicht, u.a bei Bastei u.s.w. Des Weiteren erschienen vierzehn Romane, f&uuml;nf Kurzgeschichtenb&auml;nde und ein Gedichtband bei diversen Verlagen, wie Bastei L&uuml;bbe und dem BLITZ Verlag. Nebenbei hat sie zwischen 2006-2013 gemeinsam mit dem Autor Bernd Rothe die Buch-Reihe Welt der Geschichten und die Heftromanreihe Pulp Magazine bei dem Verlag Hary Production herausgegeben.
+                    p Astrid Pfister wurde am 23. Juni 1980 in Westerholt geboren und lebt zurzeit in Herne. Bislang wurden &uuml;ber siebzig ihrer Kurzgeschichten in Anthologien und Heftromanen ver&ouml;ffentlicht, u.a bei Bastei u.s.w. Des Weiteren erschienen fünfzehn Romane, f&uuml;nf Kurzgeschichtenb&auml;nde und ein Gedichtband bei diversen Verlagen, wie Bastei L&uuml;bbe und dem BLITZ Verlag. Nebenbei hat sie zwischen 2006-2013 gemeinsam mit dem Autor Bernd Rothe die Buch-Reihe Welt der Geschichten und die Heftromanreihe Pulp Magazine bei dem Verlag Hary Production herausgegeben.
             
             div.container
                 each category in data
@@ -62,7 +60,7 @@ html(lang='de')
                                 p.bookname #{book.name}
                                 p.desc !{book.description}
                                 if book.url
-                                    a(target='_blank' href=`${book.url}`) Mehr Infos...
+                                    a(target='_blank' href=`${book.url}`) Mehr Infos
 
             hr#Zeitung
             h2.w3-center Zeitung
