@@ -58,7 +58,7 @@ html(lang='de')
                             div.w3-quarter(style='padding-bottom:30px;')
                                 picture(style='width:100%')
                                     source(srcset=`imgs/${category.name}/${book.id}.webp` type=`image/webp` alt=`${book.name}`)
-                                    img(src=`imgs/${category.name}/${book.id}.jpg` alt=`${book.name}`)
+                                    img.coverimage(src=`imgs/${category.name}/${book.id}.jpg` alt=`${book.name}`)
                                 p.bookname #{book.name}
                                 p.desc !{book.description}
                                 if book.url

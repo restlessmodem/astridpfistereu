@@ -4,6 +4,31 @@
         "name": "Romane",
         "books": [
           {
+            "id": "24",
+            "name": "Das Leuchten der Wellen",
+            "description": "ISBN: 978-3987784538 <br/> Nur bei Weltbild",
+            "url": "https://www.weltbild.de/artikel/ebook/das-leuchten-der-wellen_42031756-1"
+          },
+          {
+            "id": "23",
+            "name": "Bücherleben",
+            "description": "Exklusive Sammler-Ausgabe <br/> BLITZ Verlag",
+            "url": "https://www.blitz-verlag.de/index.php?action=buch&id=3855"
+          },
+          {
+            "id": "22",
+            "name": "Wie ein Leben ohne dich",
+            "description": "ISBN 978-3987780370 <br/> dp DIGITAL PUBLISHERS",
+            "url": "https://www.digitalpublishers.de/romane/wie-ein-leben-ohne-dich-liebesroman-ebook"
+          },
+          {
+            "id": "21",
+            "name": "Finns aufregende Reise",
+            "description": "KOVD Verlag",
+            "url": "https://kovd-verlag.de/product_info.php?info=p67_finns-aufregende-reise-von-astrid-pfister---numbered-edition.html"
+          },
+
+          {
             "id": "20",
             "name": "Trauma: Niemand wird dich retten",
             "description": "ASIN: B08Q8R1QD6 <br/>dp Verlag",
@@ -352,215 +377,6 @@
             "id": "1",
             "name": "Auf voranker.de",
             "description": "findet ihr meine Geschichte Die Blackbird Höhle",
-            "url": null
-          }
-        ]
-      },
-      {
-        "name": "Illustrationen",
-        "books": [
-          {
-            "id": "36",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "35",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "34",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "33",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "32",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "31",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "30",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "29",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "28",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "27",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "26",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "25",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "24",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "23",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "22",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "21",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "20",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "19",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "18",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "17",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "16",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "10",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "1",
-            "name": "Gaby Hylla",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "14",
-            "name": "Pat Hachfeld",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "12",
-            "name": "Pat Hachfeld",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "11",
-            "name": "Pat Hachfeld",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "9",
-            "name": "Chris Schlicht",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "8",
-            "name": "Chris Schlicht",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "7",
-            "name": "Chris Schlicht",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "5",
-            "name": "Chris Schlicht",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "4",
-            "name": "Chris Schlicht",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "3",
-            "name": "Chris Schlicht",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "2",
-            "name": "Chris Schlicht",
-            "description": null,
-            "url": null
-          },
-          {
-            "id": "15",
-            "name": "Bernd Rothe",
-            "description": null,
             "url": null
           }
         ]
